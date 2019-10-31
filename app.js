@@ -14,7 +14,7 @@ app.set('view engine', 'pug');
 
 app.use('/static', express.static('public'));
 
-// Route set up to view the home page 
+// Route set up to view the home page
 app.get('/', (req, res) => {
   res.render('index', {projects});
 });
@@ -45,6 +45,7 @@ app.use((req, res, next) => {
   next(err);
 });
 
+// Error handler that sets the error message to a user friendly message, and sets the status code.
 app.use((err, req, res, next) => {
   res.locals.error = err;
   const status = err.status || 500;
@@ -53,6 +54,7 @@ app.use((err, req, res, next) => {
   console.log("Cannot find the page")
 })
 
+// App runs on port 3000, and logs a string to the console that says which port the app is listening to.
 app.listen(3000, () => {
   console.log('The application is running in localhost:3000 !')
 });
