@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": " Its a website which generates and displays random quotes each time a user clicks a button ",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link": " https://tasneem52.github.io/random-quote-generator/",
+      "github_link": "https://github.com/Tasneem52/random-quote-generator",
+      "image_urls":[ "/static/images/project-1-main.34.58 PM.png", "/static/images/project-1-img1.35.29 PM.png "]
+    },
+    {
+      "id": 1,
+      "project_name": "List Pagination",
+      "description": "This application dynamically divides a long list of students into pagination links desplaying only a set number of students on each page and it provides a navigation to jump to the next list ",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link": "https://tasneem52.github.io/list-pagination/",
+      "github_link": "https://github.com/Tasneem52/list-pagination",
+      "image_urls": ["/static//images/project-2-main.14.00 PM.png", "/static/images/project-2-img.12.33 PM.png"]
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "Its a Web application which collects informtion from users, the form also validates the input such that any wrong data provided by the user will give back error messages. I used JavaScript and jQuery to enhace te form so that its interactive and easy to use",
+      "technologies": ["Javascript", "HTML", "CSS", "Jquery"],
+      "live_link": "https://tasneem52.github.io/Interactive-form/",
+      "github_link": "https://github.com/Tasneem52/Interactive-form",
+      "image_urls": ["/static/images/project-3-main.19.27 PM.png", "/static/images/project-3img.20.06 PM.png"]
+    },
+    {
+      "id": 3,
+      "project_name": "Phrase Hunter",
+      "description": "This is a browser based phrase guessing game. It randomly generates a phrase. Then the user can either type or click a letter which they guess. If the letters selected were correct the letter will appear in a field. If not, a heart will be taken away. After the user loses its hearts the game is over. It uses OOP and JavaScript",
+      "technologies": ["Javascript", "HTML", "CSS", "Jquery", "OOP"],
+      "live_link": "https://tasneem52.github.io/oop-game-show-app/",
+      "github_link": "https://github.com/Tasneem52/oop-game-show-app",
+      "image_urls": ["/static/images/project-4-main.24.07 PM.png", "/static/images/project-4-img.23.02 PM.png"]
+    },
+    {
+      "id": 4,
+      "project_name": "Public API Requests",
+      "description": "Using JavaScript, I created an employee directory by communicating with a third-party API.",
+      "technologies": ["Javascript", "HTML", "CSS", "Jquery", "AJAX"],
+      "live_link": "https://tasneem52.github.io/public-api-requests/",
+      "github_link": "https://github.com/Tasneem52/public-api-requests",
+      "image_urls": ["/static/images/project-5-main.27.55 PM.png", "/static/images/project-5-img.28.33 PM.png"]
+    }
+  ]
+}
